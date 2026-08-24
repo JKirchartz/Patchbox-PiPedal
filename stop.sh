@@ -1,2 +1,2 @@
 #!/bin/sh
-killall jack_sine
+sudo systemctl stop pipedal

@@ -1,14 +1,14 @@
 {
-	"name": "sine",
-	"version": "1.0.0",
-	"description": "Sine Audio Test",
-	"author": "Blokas",
+	"name": "PiPedal",
+	"version": "0.0.1",
+	"description": "PiPedal on Patchbox",
+	"author": "JKirchartz",
 	"launch_mode": "auto",
 	"depends_on": [
-		"jack.service",
+		"alsa.service",
 		{
 			"service": "pisound-btn.service",
-			"config": "sine-pisound-btn.conf"
+			"config": "PiPedal-pisound-btn.conf"
 		}
 	],
 	"services": [

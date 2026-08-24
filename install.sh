@@ -1,4 +1,5 @@
 #!/bin/sh -e
 apt-get update
-apt-get install jack-sine -y
+wget https://github.com/rerdavies/pipedal/releases/download/v2.0.110/pipedal_2.0.110_arm64.deb
+sudo apt-get install ./pipedal_2.0.110_arm64.deb
 echo "Done! Thank you!"

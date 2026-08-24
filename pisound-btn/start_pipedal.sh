@@ -4,7 +4,6 @@
 
 CLICKS="$1"
 
-killall jack_sine
-jack_sine $(expr 220 \* $1 + 220) 0.3 &
+sudo systemctl start pipedal
 
 flash_leds 10
